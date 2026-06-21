@@ -32,9 +32,9 @@ export const siteConfig: SiteConfig = {
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		hue: 165,
+		hue: 225,
 		// 是否对访问者隐藏主题色选择器
-		fixed: false,
+		fixed: true,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 		defaultMode: "system",
 	},
@@ -78,7 +78,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "流萤",
+		title: "流萤Fireflies",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -99,15 +99,15 @@ export const siteConfig: SiteConfig = {
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
 	pages: {
 		// 友链页面开关
-		friends: true,
+		friends: false,
 		// 打赏页面开关
 		sponsor: true,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		//bangumi: true,
+		bangumi: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
@@ -127,7 +127,7 @@ export const siteConfig: SiteConfig = {
 		// 文章简介显示行数，设为 0 则不截断
 		descriptionLines: 2,
 		// 是否允许用户切换布局
-		allowSwitch: true,
+		allowSwitch: false,
 		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 		grid: {
 			// 是否开启瀑布流布局，同时有封面图和无封面图的混合文章推荐开启
