@@ -1,6 +1,6 @@
 ---
 title: 编辑测试
-published: 2026-8-26
+published: 2026-08-26
 pinned: false
 description: 编辑测试
 tags: [Markdown, Firefly]
