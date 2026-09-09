@@ -15,7 +15,7 @@ export const sponsorConfig: SponsorConfig = {
 	showSponsorsList: true,
 
 	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
-	showComment: true,
+	showComment: false,
 
 	// 是否在文章详情页底部显示打赏按钮
 	showButtonInPost: true,
@@ -45,7 +45,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "",
 			link: "https://ko-fi.com/cuteleaf",
 			description: "Buy a Coffee for Firefly",
-			enabled: true,
+			enabled: false,
 		},
 		{
 			name: "爱发电",
@@ -53,7 +53,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "",
 			link: "https://ifdian.net/a/cuteleaf",
 			description: "通过 爱发电 进行打赏",
-			enabled: true,
+			enabled: false,
 		},
 	],
 
@@ -61,7 +61,7 @@ export const sponsorConfig: SponsorConfig = {
 	sponsors: [
 		// 示例：已实名打赏者
 		{
-			name: "夏叶",
+			name: "客户玩家",
 			avatar:
 				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
 			amount: "¥50",
