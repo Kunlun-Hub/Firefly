@@ -6,7 +6,7 @@ description: 2026年8月客诉月报 —— 各项指标计算公式拆解
 tags: [工作]
 category: 自动化1
 image: ./images/firefly3.avif
-slug: code-examples
+slug: kesu
 ---
 
 # 2026年8月客诉月报 —— 各项指标计算公式拆解
