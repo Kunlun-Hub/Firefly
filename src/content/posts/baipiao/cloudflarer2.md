@@ -3,9 +3,9 @@ title: 静态博客接入R2存储
 published: 2026-09-09
 description: 在静态博客中使用Cloudflare R2存储图片，10G空间、全球加速、流量免费；Cloudflare赛博大善人。
 image: "https://cloudflare-r2.4w.ink/2026/09/09/1788961210228-9131.png"
-tags: [对象存储,白嫖]
+tags: [对象存储,白嫖,Cloudflarer]
 category: 白嫖日记
-slug: /blogr2cdn
+slug: baipiao/cloudflarer2
 ---
 
 # Cloudflare R2 介绍
